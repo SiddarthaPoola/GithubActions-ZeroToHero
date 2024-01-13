@@ -18,3 +18,17 @@ Repository to kick start your journey with GitHub Actions
 In conclusion, Jenkins is better suited for complex and large-scale automation tasks, while GitHub Actions is a more cost-effective and user-friendly solution for simple to moderate automation needs.
 
 
+### To set up Github selfhosted runner
+
+#### To launch EC2 instance
+
+To launch ubuntu22 EC2 instance and install below commands on ubuntu machine
+
+```
+#!/bin/bash
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install net-tools -y
+sudo apt-get install zip unzip -y
+```
+
