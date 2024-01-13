@@ -1,5 +1,3 @@
-# GitHub-Actions-Zero-to-Hero
-Repository to kick start your journey with GitHub Actions
 
 ## Comparing with Jenkins 
 
@@ -65,3 +63,17 @@ Finally run
 Then add the "self-hosted" in .github/workflows/first-actions.yml
 
 ![image](https://github.com/kohlidevops/GithubActions-ZeroToHero/assets/100069489/8839b0d2-b0fd-4314-8729-28633e7177b3)
+
+After update the first-actions.yml, my build has been started and succeeded.
+
+![image](https://github.com/kohlidevops/GithubActions-ZeroToHero/assets/100069489/980a83ff-3165-4379-aff0-885f678bc310)
+
+You can check your selfhosted runner that is EC2 instance
+
+![image](https://github.com/kohlidevops/GithubActions-ZeroToHero/assets/100069489/d9e85824-f043-4b0e-8fd7-4615f227ac79)
+
+ONce the build has been succeeded the you can see the green tick mark in the repository
+
+![image](https://github.com/kohlidevops/GithubActions-ZeroToHero/assets/100069489/24b3f031-09e1-4dee-9c82-67f0bfb25a77)
+
+Thats it!
